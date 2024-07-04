@@ -1,11 +1,14 @@
 // TEMPERATURE CONVERSION PROGRAM
+
+// Declare the element  to store the value
 const textBox = document.getElementById("textBox");
 const toFahrenhit = document.getElementById("toFahrenhit");
 const toCelsius = document.getElementById("toCelsius");
 const result = document.getElementById("result");
+// Declare a variable to store value of temp
 let temp;
 
-
+// Made a convert function to perform temperature conversion based on user selections
 function convert() {
     if (toFahrenhit.checked) {
         temp = Number(textBox.value);
